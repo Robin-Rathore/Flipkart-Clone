@@ -1,0 +1,13 @@
+.logo{
+    margin: 5px;
+  }
+  a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .star{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin: -8px 5px;
+  }

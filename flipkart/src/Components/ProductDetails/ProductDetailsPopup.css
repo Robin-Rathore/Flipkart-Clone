@@ -1,0 +1,153 @@
+.product-details-popup {
+    /* /* position: fixed; */
+    top: 0;
+    left: 0; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    z-index: 999;
+    /* scroll-behavior: auto; */
+    /* overflow: hidden; */
+  }
+
+  .product-buy-button button {
+    background-color: #ff7300;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    width: 180px;
+    height: 55px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bold;
+     /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: 10px;
+  }
+  
+  .popup-header {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    padding: 10px;
+  }
+  
+  .popup-header img {
+    max-width: 70%;
+    max-height: 70vh;
+  }
+  
+  /* .popup-header button {
+    width: 120px;
+    background-color: #ff7300;
+    border-radius: 5px;
+  } */
+  
+  .popup-content {
+    background: #fff;
+    width: 100%;
+    max-width: 80%;
+    padding: 0px;
+    text-align: left;
+  }
+
+  .product-discounted-price1{
+    color: #222222 !important;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-weight: bolder;
+  
+  }
+
+  .product-price1 {
+    font-size: 1em;
+  }
+  .product-cut-price1 {
+    text-decoration: line-through;
+    color: #000000;
+    font-size: 0.9em;
+  }
+  
+  .percentage1{
+    color: #388e3c;
+    font-size: 15px;
+    font-weight: 600;
+    font: inherit;
+  
+  }
+  .product-discount1 {
+    color: #388e3c;
+    font-size: 18px;
+    font-weight: 600;
+  
+  }
+  
+  #box-green {
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: #388e3c;
+  }
+
+  .right{
+    margin-left: 50px;
+    margin-top: 0;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  #box-green img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #retings {
+    font-weight: 700;
+    color: #878787;
+    margin-left: 5px;
+  }
+
+  .popup-content .product-title {
+    margin-top: 0;
+    display: flex;
+    align-items: flex-start;
+    font-size: 18px;
+    max-width: 80%;
+    font-family: "Spartan", sans-serif;
+    color: #2f2d2d;
+    font-weight: 600;
+    line-height: 1.5;
+    /* font-weight: bold; */
+  }
+  
+  .popup-content .product-description {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .popup-header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
